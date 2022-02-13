@@ -1,1 +1,1 @@
-web:gunicorn book_stock_management.wsgi
+web: gunicorn book_stock_management.wsgi --log-file -
